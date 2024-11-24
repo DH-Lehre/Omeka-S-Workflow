@@ -140,6 +140,8 @@ Ressourcenvorlagen legen fest:
 
 ## Step by step: Eine eigene Website gestalten
 
+![Website erstellen - Bild](Images/website_erstellen.jpg)
+
 ### Website erstellen
 
 > 1. Klicken Sie unter *Standort* auf *Neuen Standort hinzufügen*.
@@ -294,9 +296,13 @@ https://omeka.org/s/modules/PageBlocks/
 
 ### Veröffentlichung
 
+![Website veröffentlichen Bild](Images/website_veroeffentlichen.jpg)
+
+<br>
+
 > 1. Klicken Sie auf *Vorschau*, um Ihre Website zu überprüfen.
-Stellen Sie sicher, dass alle Seiten, Links und Inhalte wie gewünscht funktionieren.
-> 2. Website online stellen: Wechseln Sie im Admin-Dashboard zum Tab Einstellungen der Website. Aktivieren Sie die Option *Öffentlich zugänglich machen*.
+> 2. Stellen Sie sicher, dass alle Seiten, Links und Inhalte wie gewünscht funktionieren.
+> 3. Website online stellen: Wechseln Sie im Admin-Dashboard zum Tab Einstellungen der Website. Aktivieren Sie die Option *Öffentlich zugänglich machen*.
 
 ## Für Lehrende: Omeka-S in den Seminar-Workflow einbinden
 

@@ -43,16 +43,24 @@ Unter *Nutzer* sehen Sie alle Mitglieder mit Ihren jeweiligen Rollen. Sie haben 
 
 In Omeka-S werden die erstellten Websites - eventuell etwas irritierenderweise - als *Standorte* bezeichnet. Unter dieser Registerkarte werden Ihnen alle im Rahmen des Projektes bereits erstellten Websites angezeigt, zu denen Sie sich direkt weiterleiten lassen können. Steht Ihnen für eine Website die Rolle als Bearbeiter*in zur Verfügung, wird Ihnen dies durch ein Stift-Symbol angezeigt - durch Anklicken, gelangen Sie in den Workdesk für die jeweilige Website. 
 
-Doch bevor wir uns den Funktionen der Website-Gestaltung zuwenden, erhalten Sie zunächst einen Überblick über die sogennten Ressourcen. **Alles**, was Sie an Items in Ihre Website einbauen wollen, wird unter diesem Bereich in sogenannten Sammlungen organisiert. 
+Doch bevor wir uns den Funktionen der Website-Gestaltung zuwenden, erhalten Sie zunächst einen Überblick über die sogennten Ressourcen. **Alles**, was Sie an Items in Ihre Website einbauen wollen, wird unter diesem Bereich in sogenannten *Sammlungen* organisiert. 
 
 >Damit Sie sich selbst aktiv mit Omeka-S vertraut machen und parallel selbst Ihre eigene Test-Website erstellen können, finden Sie in den folgenden Abschnitten kleine Arbeitsaufforderungen in Kästchen, wie diesem hier. Falls Fragen aufkommen, scheuen Sie sich bitte nicht, diese auf GitHub im Repository zu diesem Workshop zu stellen! Hier können wir uns alle untereinander unterstützen und die ein oder andere Frage, wird sicher auch uns herausfordern und Neues lernen lassen. ;-)
 
+>Falls Sie lieber an einer bereits erstellten Ausstellung mitarbeiten wollen, sind Sie herzlich eingeladen die einzelnen Schritte dieses Workshops durch Mitarbeit an dem [folgenden Projekt](https://projekt03.omeka-s.ub.uni-kiel.de/admin/site/s/gedankenschritte-philosophische-spuren-des-spazierens) auszuprobieren. Alle Inhalte können frei verändert werden!
+
+![Screenshot Omeka Site Philosophewege](Images/Philosophenwege_Omeka_Site.png)
+
+
 ### Ressourcen
 
-![Digitale Ressourcen organisieren](Images/digitale_ressourcen.jpg)
+![Digitale Ressourcen organisieren](Images/neil-macc-3YBK1Lsn-KM-unsplash.jpg "Foto von neil macc auf Unsplash")
 
 #### Objekte
 
+![Fotos als Resoourcen](Images/brigitta-schneiter-MHGDVDWjAb4-unsplash.jpg "Foto von Brigitta Schneiter auf Unsplash")
+
+<br>
 Einzelne digitale oder physische Objekte, die Metadaten, Dateien (z. B. Bilder, Audio, Textdokumente) und Beschreibungen enthalten.
 Sammlungen (Item Sets): Gruppierungen von Objekten, die thematisch, zeitlich oder anderweitig zusammengehören.
 
@@ -303,10 +311,6 @@ https://omeka.org/s/modules/PageBlocks/
 > 1. Klicken Sie auf *Vorschau*, um Ihre Website zu überprüfen.
 > 2. Stellen Sie sicher, dass alle Seiten, Links und Inhalte wie gewünscht funktionieren.
 > 3. Website online stellen: Wechseln Sie im Admin-Dashboard zum Tab Einstellungen der Website. Aktivieren Sie die Option *Öffentlich zugänglich machen*.
-
-## Für Lehrende: Omeka-S in den Seminar-Workflow einbinden
-
-### ...
 
 ## Hilfreiche Links
 

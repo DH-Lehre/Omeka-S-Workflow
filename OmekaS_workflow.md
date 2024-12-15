@@ -9,7 +9,7 @@ narrator: Deutsch Female
 -->
 
 # Omeka-S Workflow
-![Digitale Ausstellung erstellen Bild](Images/digitale_Ausstellung_erstellen_workflow.jpg)
+![Digitale Ausstellung erstellen Bild](Images/xavier-von-erlach-era7jvRvgC0-unsplash.jpg "Foto von Xavier von Erlach auf Unsplash")
 
 ## Was ist Omeka-S?
 
@@ -107,7 +107,7 @@ Geben Sie einen Titel und optionale Beschreibungen ein. Sie können die bereitge
 
 <br>
 
-Sammlungen können unter dem Tab *erweiterte Suche* oben rechts nach Metadaten gefiltert werden, um spezifische Inhalte hervorzuheben. Die Klasse kann hier zusätzlicher Filter verwendet werden.
+Sammlungen können unter dem Tab *erweiterte Suche* nach Metadaten gefiltert werden, um spezifische Inhalte hervorzuheben. Die Klasse kann hier zusätzlicher Filter verwendet werden.
 
 Zurück im *Objekt*-Bereich, können Sie nun Ihre Objekte der neu erstellten Sammlung zuweisen.
 
@@ -117,7 +117,7 @@ Ein kleiner Hinweis für künftige Projekte: Ein Objekt kann theoretisch auch me
 
 #### Objekte verknüpfen
 
-In Omeka S lassen sich durch die Verwendung von *Ontologien* und *Ressourcenreferenzen* Objekte miteinander verknüpfen, um einen Kontext herzustellen.
+In Omeka S lassen sich Objekte miteinander verknüpfen, um einen Kontext herzustellen.
 
 >Verknüpfen Sie nun zwei Ihrer Objekte miteinander. (z. B. ein Foto mit der Biografie des Fotografen)
 > Öffnen Sie hierzu eines der beiden Objekte (z. B. das Foto) im Bearbeitungsmodus.
@@ -159,13 +159,23 @@ Ressourcenvorlagen legen fest:
 > 5. Fügen Sie optional eine Kurzbeschreibung hinzu.
 > 5. Speichern Sie die Website.
 
+<br>
+
+![Screenshot Standort erstellen](Images/beispiel_standort_erstellen.png)
+
 ### Seitenlayout gestalten 
 
-> Navigieren Sie zum Tab Design in dem Bearbeitungsmenü Ihrer Website.
+> Navigieren Sie zum Tab *Designvorlage* in dem Bearbeitungsmenü Ihrer Website.
 > Wählen Sie das gewünschte Theme und passen Sie die Farben, Schriftarten und Layouts an, falls das Theme dies erlaubt.
 
 Standardthemes wie Default oder Center Row sind in Omeka S bereits integriert.
 [Hier](...) finden Sie alle offiziellen Omeka S Themes.
+
+<br> 
+
+![Screenshot Designvorlagen](Images/designvorlagen.png)
+
+<br>
 
 Und hier noch der [Link zu einer Anleitung zur Erstellung eigener Themes](https://omeka.org/s/docs/developer/themes/), um das Design Ihrer Website anzupassen - für die ganz motivierten ;-)
 
@@ -175,7 +185,11 @@ Und hier noch der [Link zu einer Anleitung zur Erstellung eigener Themes](https:
 > 2. Klicken Sie hier auf *Neue Seite hinzufügen*, um eine neue Seite zu erstellen, und geben Sie einen passenden Titel ein. (z. B. "Willkommen", „Über uns“, „Sammlung“).
 > Erstellen Sie auch eine Unterseite via ... (z. B. „Sammlungen“ als Hauptseite mit Unterseiten wie „Fotografien“ und „Dokumente“).
 
-Hinweis: Die Seitenhierarchie lässt sich via drag and drop variieren.
+Hinweis: Die Seitenhierarchie lässt sich unter *Navigation* via drag and drop variieren. Das Navigationsmenü erscheint auf Ihrer Website und erleichtert den Nutzer:innen die Navigation.
+
+<br>
+
+![Screenshot Navigationsmenü erstellen](Images/navigation.png)
 
 ### Blöcke verwenden
 
@@ -270,11 +284,32 @@ Fügt einen großen visuellen Bannerbereich hinzu. (für einprägsame Kopfzeilen
 <br>
 **Hinweis**: Die Blöcke können in flexiblen Layouts (z. B. Spalten, Raster) kombiniert werden. Zudem unterstützen viele Blöcke benutzerdefinierte Stile (CSS) und Hintergrundbilder.
 
-### Navigationsmenü erstellen
+### Kollaboratives Arbeiten: Collecting
 
-Erstellen Sie ein Navigationsmenü, indem Sie Seiten, Links oder Sammlungen hinzufügen.
-Sie können die Elemente per drag and drop beliebig in ihrer Hierarchie und Reihenfolge anordnen.
-Das Menü erscheint auf Ihrer Website und erleichtert den Nutzern die Navigation.
+Die Collecting-Funktion in Omeka S ermöglicht es Administratoren, Nutzer-generierte Inhalte zu sammeln, indem sie benutzerdefinierte Formulare erstellen und diese auf der Website einbinden. Dies ist besonders nützlich für kollaborative Projekte, bei denen andere Projektteilnehmer*innen Informationen, Dateien oder persönliche Geschichten zu einer Sammlung beitragen sollen.
+
+> Probieren Sie gerne [hier](https://projekt03.omeka-s.ub.uni-kiel.de/s/gedankenschritte-philosophische-spuren-des-spazierens/page/philosophenwege) die Collecting-Funktion aus, indem Sie Text oder Dateien einreichen. :-)
+
+
+> Erstellen Sie eine Collecting-Form für Ihre Website:
+ 1. Stellen Sie zunächst unter dem Menüpunkt *Module* sicher, dass das Collecting-Modul installiert und aktiviert ist
+ 2. Navigieren Sie in dem Bearbeitungsmenü Ihrer Website zu *Collecting* und klicken Sie auf *Add new form*.
+ 3. Geben Sie einen Titel und eine Beschreibung ein und wählen Sie aus, in welcher Sammlung die Einsendungen gespeichert werden sollen.
+ 4. Fügen Sie unter *add prompt* benutzerdefinierte Felder mit jeweiligen Prompts hinzu, um die gewünschten Eingaben von Nutzer:innen zu strukturieren. Wählen Sie zwischen verschiedenen Feldtypen wie:
+    Textfeld (für kurze Texteingaben)
+    Textbereich (für längere Antworten)
+    Auswahlfeld (Dropdown oder Radio-Buttons)
+    Datei-Upload (für Bilder, Dokumente etc.).
+    Felder können auf Wunsch als „Pflichtfelder“ markiert werden.
+ 5. Am Ende das *Sichern* nicht vergessen, um das Formular zu erstellen.
+ 6. Über den Block "Collecting" können Sie nun Ihr Collecting-Formular in eine beliebige Seite Ihrer Website einbinden
+ 7. Eingereichte Inhalte verwalten: Die Einsendungen werden automatisch der zugeordneten Sammlung hinzugefügt. Im Admin-Dashboard können Sie unter *Items* die eingereichten Inhalte einsehen, prüfen und bearbeiten.
+
+<br>
+
+Hier ein Beispiel:
+
+![Screenshot Collecting form](Images/collecting_form_beispiel.png)
 
 ### Erweiterungen und Funktionen hinzufügen
 
@@ -304,7 +339,7 @@ https://omeka.org/s/modules/PageBlocks/
 
 ### Veröffentlichung
 
-![Website veröffentlichen Bild](Images/website_veroeffentlichen.jpg)
+![Website veröffentlichen Bild](Images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg "Foto von Glenn Carstens Peterss auf Unsplash")
 
 <br>
 

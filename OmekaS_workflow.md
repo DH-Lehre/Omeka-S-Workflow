@@ -30,7 +30,7 @@ In diesem kurzen Workshop lernen Sie, wie Sie mit Omeka S eigene Webseiten erste
 
 ## Grundfunktionen kennenlernen
 
-![Screenshot Grundfunktionen](Images/Screenshot_Grundfunktionen.png)  Melden Sie sich zunächst [hier](hier Hosting-Link) mit Ihrer stu-Mailadresse und dem Ihnen zugesendeten Passwort an. So gelangen Sie auf die über die CAU gehostete Omeka-S Plattform für unser Seminar.
+![Grundfunktionen](Images/chris-haws-4ixuPvOZr_M-unsplash.jpg "Foto von Chris Haws auf Unsplash")  Melden Sie sich zunächst [hier](hier Hosting-Link) mit Ihrer stu-Mailadresse und dem Ihnen zugesendeten Passwort an. So gelangen Sie auf die über die CAU gehostete Omeka-S Plattform für unser Seminar.
 
 ### Nutzer*innen-Einstellungen
 

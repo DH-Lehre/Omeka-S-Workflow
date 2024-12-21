@@ -61,8 +61,6 @@ Doch bevor wir uns den Funktionen der Website-Gestaltung zuwenden, erhalten Sie 
 ![Fotos als Resoourcen](Images/brigitta-schneiter-MHGDVDWjAb4-unsplash.jpg "Foto von Brigitta Schneiter auf Unsplash")
 
 <br>
-Einzelne digitale oder physische Objekte, die Metadaten, Dateien (z. B. Bilder, Audio, Textdokumente) und Beschreibungen enthalten.
-Sammlungen (Item Sets): Gruppierungen von Objekten, die thematisch, zeitlich oder anderweitig zusammengehören.
 
 >Fügen Sie zunächst 3 neue Objekte (möglichst unterschiedlicher Art) hinzu:
 
@@ -79,14 +77,67 @@ Es ist wichtig, korrekte und möglichst detaillierte Metadaten für jedes Objekt
 Geben Sie aussagekräftige Titel, Beschreibungen und Schlagwörter ein, um Objekte auffindbar zu machen. 
 
 Angaben, die auf jeden Fall gemacht werden sollten, sind:
-- Klasse
-- Titel 
-- Quelle
-- Urheber*in
-- Indentifikator  
-- Nutzungsrechte (welche Lizenz?)
+
+ - Klasse
+ - Titel 
+ - Quelle
+ - Urheber:in
+ - Indentifikator  
+ - Nutzungsrechte (welche Lizenz?)
 
 <br>
+
+> Als Angabe der Nutzungsrechte ist die Verwendung von Standards, wie der Creative Commons-Lizenzen empfehlenswert.
+
+---
+
+Welche Bedingung ist bei der Lizenz **CC BY** zwingend einzuhalten?
+
+[[ ]] Das Werk darf nur für nicht-kommerzielle Zwecke genutzt werden.  
+[[ ]] Änderungen am Werk sind nicht erlaubt.  
+[[X]] Der/die Urheber:in des Werkes muss genannt werden.  
+
+---
+
+Welche Lizenz erlaubt die kommerzielle Nutzung eines Werkes und setzt keine weiteren Einschränkungen voraus?
+
+[[ ]] CC BY-SA  
+[[X]] CC0  
+[[ ]] CC BY-NC  
+
+---
+
+Was bedeutet der Zusatz **SA (ShareAlike)**?
+
+[[X]] Abgeleitete Werke müssen unter denselben Bedingungen lizenziert werden.  
+[[ ]] Das Werk darf nur im Original weiterverbreitet werden.  
+[[ ]] Das Werk darf nicht verändert werden.  
+
+---
+
+Welche Einschränkung gilt bei der Lizenz **CC BY-NC**?
+
+[[ ]] Es dürfen keine abgeleiteten Werke erstellt werden.  
+[[X]] Das Werk darf nicht für kommerzielle Zwecke genutzt werden.  
+[[ ]] Der/die Urheber:in muss nicht genannt werden.  
+
+---
+
+Was erlaubt die Lizenz **CC BY-ND**?
+
+[[ ]] Das Werk darf verändert und verbreitet werden.  
+[[X]] Das Werk darf verbreitet, aber nicht verändert werden.  
+[[ ]] Das Werk darf nur für Bildungszwecke genutzt werden.  
+
+---
+
+Welche der folgenden Lizenzen bietet den **größten Freiraum** für die Nutzung eines Werkes?
+
+[[X]] CC0  
+[[ ]] CC BY-SA  
+[[ ]] CC BY-ND  
+
+---
 
 Möglich ist hier auch die Option einer Georeferenzierung. Auf Ihrer Website erscheint in diesem Fall eine Map, auf der Ihr Objekt verortet ist.
 
@@ -113,7 +164,15 @@ Zurück im *Objekt*-Bereich, können Sie nun Ihre Objekte der neu erstellten Sam
 
 Die Anordnung der Objekte in Sammlungen ist flexibel und kann je nach Projektanforderung angepasst werden.
 
-Ein kleiner Hinweis für künftige Projekte: Ein Objekt kann theoretisch auch mehreren Sammlungen gleichzeitig zugeordnet werden.
+---
+Kann ein Objekt mehreren Sammlungen gleichzeitig zugeordnet werden?
+
+[(X)] Ja, ein Objekt kann Teil von mehreren Sammlungen sein
+[( )] Nein, ein Objekt kann immer nur in einer Sammlung sein
+[( )] Nur, wenn die Sammlungen unterschiedliche Klassen haben
+
+---
+
 
 #### Objekte verknüpfen
 
@@ -170,6 +229,16 @@ Ressourcenvorlagen legen fest:
 
 Standardthemes wie Default oder Center Row sind in Omeka S bereits integriert.
 [Hier](...) finden Sie alle offiziellen Omeka S Themes.
+
+Das [[Default]] Theme ist ideal, wenn Sie ein minimalistisches Layout benötigen und keine umfangreichen Designanpassungen vornehmen möchtest. Es bietet eine klare Struktur und eignet sich gut als Basis für CSS-Anpassungen.
+
+Für Projekte mit einem zentralen Fokus auf einzelne Objekte oder visuelle Inhalte eignet sich das Theme [[CenterRow]]. Es präsentiert Inhalte prominent in der Mitte und ist optimal für kleinere Datenmengen.
+
+Möchten Sie ein flexibles, responsives Design, bietet es sich an, das Theme [[Foundation]] zu wählen. Es ist ideal für komplexe Webseiten mit mehreren Sammlungen.
+
+Wenn der Schwerpunkt auf Textinhalten liegt, die übersichtlich und leserfreundlich präsentiert werden sollen, ist das Theme [[Papers]] perfekt.
+
+Kreative und moderne Projekte, die multimediale Inhalte wie Texte, Bilder und Videos kombinieren, profitieren vom Theme [[Freedom]]. Es bietet klare Linien und eine hohe Anpassungsfähigkeit.
 
 <br> 
 

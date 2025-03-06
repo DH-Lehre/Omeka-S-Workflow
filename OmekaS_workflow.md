@@ -13,7 +13,7 @@ narrator: Deutsch Female
 
 ## Was ist Omeka-S?
 
-Omeka-S ist eine webbasierte Open-Source-Software, die speziell für die Erstellung und Verwaltung digitaler Sammlungen und Ausstellungen entwickelt wurde. Im Gegensatz zu traditionellen Content-Management-Systemen (CMS) wie WordPress liegt der Schwerpunkt von Omeka S auf der Verwaltung von Metadaten und der Präsentation wissenschaftlicher, kultureller oder historischer Inhalte.
+Omeka S ist eine webbasierte Open-Source-Software, die speziell für die Erstellung und Verwaltung digitaler Sammlungen und Ausstellungen entwickelt wurde. Im Gegensatz zu traditionellen Content-Management-Systemen (CMS) wie WordPress liegt der Schwerpunkt von Omeka S auf der Verwaltung von Metadaten und der Präsentation wissenschaftlicher, kultureller oder historischer Inhalte.
 
 ![Omeka Dashboard Bild](Images/omeka_dashboard__beispiel.png)
 
@@ -26,7 +26,7 @@ Mit Omeka S können Sie...
 
 Um einen ersten Eindruck zu erhalten, können Sie sich [hier](https://omeka.org/s/showcase/) einige Anwendungsbeispiele ansehen. :-)
 
-In diesem kurzen Workshop lernen Sie, wie Sie mit Omeka S eigene Webseiten erstellen können – von der grundlegenden Einrichtung von Sammlungen bis hin zur Gestaltung interaktiver Ausstellungen. 
+>In diesem kurzen Workshop lernen Sie, wie Sie mit Omeka S eigene Webseiten erstellen können – von der grundlegenden Einrichtung von Sammlungen, bis hin zur Gestaltung interaktiver Ausstellungen. 
 
 ## Grundfunktionen kennenlernen
 
@@ -41,9 +41,10 @@ Unter *Nutzer* sehen Sie alle Mitglieder mit Ihren jeweiligen Rollen. Sie haben 
 
 ### Standorte
 
-In Omeka-S werden die erstellten Websites - eventuell etwas irritierenderweise - als *Standorte* bezeichnet. Unter dieser Registerkarte werden Ihnen alle im Rahmen des Projektes bereits erstellten Websites angezeigt, zu denen Sie sich direkt weiterleiten lassen können. Steht Ihnen für eine Website die Rolle als Bearbeiter*in zur Verfügung, wird Ihnen dies durch ein Stift-Symbol angezeigt - durch Anklicken, gelangen Sie in den Workdesk für die jeweilige Website. 
+In Omeka S werden die erstellten Websites - eventuell etwas irritierenderweise - als **Standorte** bezeichnet. Unter dieser Registerkarte werden Ihnen alle im Rahmen des Projektes bereits erstellten Websites angezeigt, zu denen Sie sich direkt weiterleiten lassen können. Steht Ihnen für eine Website die Rolle als Bearbeiter*in zur Verfügung, wird Ihnen dies durch ein Stift-Symbol angezeigt - durch Anklicken gelangen Sie in den Workdesk für die jeweilige Website. 
 
-Doch bevor wir uns den Funktionen der Website-Gestaltung zuwenden, erhalten Sie zunächst einen Überblick über die sogennten Ressourcen. **Alles**, was Sie an Items in Ihre Website einbauen wollen, wird unter diesem Bereich in sogenannten *Sammlungen* organisiert. 
+Doch bevor wir uns den Funktionen der Website-Gestaltung zuwenden, erhalten Sie zunächst einen Überblick über die sogenannten **Ressourcen**. 
+*Alles*, was Sie an Items in Ihre Website einbauen wollen, wird unter diesem Bereich in **Sammlungen** organisiert. 
 
 >Damit Sie sich selbst aktiv mit Omeka-S vertraut machen und parallel selbst Ihre eigene Test-Website erstellen können, finden Sie in den folgenden Abschnitten kleine Arbeitsaufforderungen in Kästchen, wie diesem hier. Falls Fragen aufkommen, scheuen Sie sich bitte nicht, diese auf GitHub im Repository zu diesem Workshop zu stellen! Hier können wir uns alle untereinander unterstützen und die ein oder andere Frage, wird sicher auch uns herausfordern und Neues lernen lassen. ;-)
 
@@ -138,8 +139,9 @@ Welche der folgenden Lizenzen bietet den **größten Freiraum** für die Nutzung
 [[ ]] CC BY-ND  
 
 ---
+<br>
 
-Möglich ist hier auch die Option einer Georeferenzierung. Auf Ihrer Website erscheint in diesem Fall eine Map, auf der Ihr Objekt verortet ist.
+Möglich ist hier auch die Option einer **Georeferenzierung**. Auf Ihrer Website erscheint in diesem Fall eine Map, auf der Ihr Objekt verortet ist.
 
 ![Screenshot Mapping](Images/Screenshot_Mapping.png)
 
@@ -176,12 +178,15 @@ Kann ein Objekt mehreren Sammlungen gleichzeitig zugeordnet werden?
 
 #### Objekte verknüpfen
 
-In Omeka S lassen sich Objekte miteinander verknüpfen, um einen Kontext herzustellen.
+In Omeka S lassen sich Objekte miteinander **verknüpfen**, um einen Kontext herzustellen.
 
->Verknüpfen Sie nun zwei Ihrer Objekte miteinander. (z. B. ein Foto mit der Biografie des Fotografen)
+>Verknüpfen Sie nun zwei Ihrer Objekte miteinander. (z. B. ein Foto mit der Biografie des/der Fotograf*in)
+>
 > Öffnen Sie hierzu eines der beiden Objekte (z. B. das Foto) im Bearbeitungsmodus.
+>
 >Fügen Sie eine neue Eigenschaft hinzu, die die Beziehung beschreibt (z. B. „Erstellt von“, dc:creator).
->Anstatt einen einfachen Text einzugeben, wählen Sie die Option, um eine Ressourcenreferenz zu verknüpfen: Wählen Sie das Objekt (z. B. die Biografie des Fotografen) aus der Liste der vorhandenen Ressourcen aus.
+>
+>Anstatt einen einfachen Text einzugeben, wählen Sie die Option, um eine Ressourcenreferenz zu verknüpfen: Wählen Sie das Objekt (z. B. die Biografie des/der Fotograf*in) aus der Liste der vorhandenen Ressourcen aus.
 
 Nicht das Speichern der Änderungen vergessen! :-) 
 
@@ -198,16 +203,13 @@ Eine Ressourcenvorlage wirkt wie ein Metadatenformular, das spezifisch auf die A
 
 Ressourcenvorlagen legen fest:
 
-- Welche Eigenschaften (Properties) für eine Ressource relevant sind (z. B. dc:title, dc:creator),
+- Welche Eigenschaften (Properties) für eine Ressource relevant sind (z. B. title, creator),
 - Reihenfolge und Gruppierung der Eigenschaften
-- Voreinstellungen und Einschränkungen für bestimmte Eigenschaften:
-    - Standardwerte
-    - Eingabebegrenzungen (z. B. erlaubte Datentypen).
-    - Pflichtfelder
+- Voreinstellungen und Einschränkungen für bestimmte Eigenschaften: Standardwerte, Eingabebegrenzungen (z. B. erlaubte Datentypen), Pflichtfelder
 
-## Step by step: Eine eigene Website gestalten
+## Step by step: Die eigene digitale Ausstellung
 
-![Website erstellen - Bild](Images/website_erstellen.jpg)
+![Website erstellen - Bild](Images/note-thanun-1K4Gfl6i63E-unsplash.jpg "Von Note Thanun auf Unsplash")
 
 ### Website erstellen
 
@@ -227,7 +229,7 @@ Ressourcenvorlagen legen fest:
 > Navigieren Sie zum Tab *Designvorlage* in dem Bearbeitungsmenü Ihrer Website.
 > Wählen Sie das gewünschte Theme und passen Sie die Farben, Schriftarten und Layouts an, falls das Theme dies erlaubt.
 
-Standardthemes wie Default oder Center Row sind in Omeka S bereits integriert.
+Standardthemes wie *Default* oder *Center Row* sind in Omeka S bereits integriert.
 [Hier](...) finden Sie alle offiziellen Omeka S Themes.
 
 Das [[Default]] Theme ist ideal, wenn Sie ein minimalistisches Layout benötigen und keine umfangreichen Designanpassungen vornehmen möchtest. Es bietet eine klare Struktur und eignet sich gut als Basis für CSS-Anpassungen.
@@ -251,10 +253,11 @@ Und hier noch der [Link zu einer Anleitung zur Erstellung eigener Themes](https:
 ### Seitenstruktur erstellen
 
 > 1. Öffnen Sie den Bearbeitungsmodus für die Website, die Sie gerade erstellt haben und navigieren Sie zum Tab *Seiten*.
-> 2. Klicken Sie hier auf *Neue Seite hinzufügen*, um eine neue Seite zu erstellen, und geben Sie einen passenden Titel ein. (z. B. "Willkommen", „Über uns“, „Sammlung“).
-> Erstellen Sie auch eine Unterseite via ... (z. B. „Sammlungen“ als Hauptseite mit Unterseiten wie „Fotografien“ und „Dokumente“).
+> 2. Klicken Sie hier auf *Neue Seite hinzufügen*, um eine neue Seite zu erstellen, und geben Sie einen passenden Titel ein. (z. B. "Willkommen", „Sammlung“).
 
 Hinweis: Die Seitenhierarchie lässt sich unter *Navigation* via drag and drop variieren. Das Navigationsmenü erscheint auf Ihrer Website und erleichtert den Nutzer:innen die Navigation.
+
+> 3. Erstellen Sie auch eine Unterseite, indem sie eine weitere Seite hinzufügen und diese dann im Navigationsbaum ihrer Seite von eben unterordnen. (z. B. „Sammlungen“ als Hauptseite mit Unterseiten wie „Fotografien“ und „Dokumente“).
 
 <br>
 
@@ -355,24 +358,28 @@ Fügt einen großen visuellen Bannerbereich hinzu. (für einprägsame Kopfzeilen
 
 ### Kollaboratives Arbeiten: Collecting
 
-Die Collecting-Funktion in Omeka S ermöglicht es Administratoren, Nutzer-generierte Inhalte zu sammeln, indem sie benutzerdefinierte Formulare erstellen und diese auf der Website einbinden. Dies ist besonders nützlich für kollaborative Projekte, bei denen andere Projektteilnehmer*innen Informationen, Dateien oder persönliche Geschichten zu einer Sammlung beitragen sollen.
+Die Collecting-Funktion in Omeka S ermöglicht es Administrator:innen, Nutzer:innen-generierte Inhalte zu sammeln, indem sie benutzerdefinierte Formulare erstellen und diese auf der Website einbinden. Dies ist besonders nützlich für kollaborative Projekte, bei denen andere Projektteilnehmer:innen Informationen, Dateien oder persönliche Geschichten zu einer Sammlung beitragen sollen.
 
 > Probieren Sie gerne [hier](https://projekt03.omeka-s.ub.uni-kiel.de/s/gedankenschritte-philosophische-spuren-des-spazierens/page/philosophenwege) die Collecting-Funktion aus, indem Sie Text oder Dateien einreichen. :-)
-
+> (Zugang nur über VPN der CAU Kiel)
 
 > Erstellen Sie eine Collecting-Form für Ihre Website:
- 1. Stellen Sie zunächst unter dem Menüpunkt *Module* sicher, dass das Collecting-Modul installiert und aktiviert ist
+ 1. Stellen Sie hierzu zunächst unter dem Menüpunkt *Module* sicher, dass das Collecting-Modul installiert und aktiviert ist.
  2. Navigieren Sie in dem Bearbeitungsmenü Ihrer Website zu *Collecting* und klicken Sie auf *Add new form*.
  3. Geben Sie einen Titel und eine Beschreibung ein und wählen Sie aus, in welcher Sammlung die Einsendungen gespeichert werden sollen.
  4. Fügen Sie unter *add prompt* benutzerdefinierte Felder mit jeweiligen Prompts hinzu, um die gewünschten Eingaben von Nutzer:innen zu strukturieren. Wählen Sie zwischen verschiedenen Feldtypen wie:
-    Textfeld (für kurze Texteingaben)
-    Textbereich (für längere Antworten)
-    Auswahlfeld (Dropdown oder Radio-Buttons)
-    Datei-Upload (für Bilder, Dokumente etc.).
+
+    - Textfeld (für kurze Texteingaben)
+    - Textbereich (für längere Antworten)
+    - Auswahlfeld (Dropdown oder Radio-Buttons)
+    - Datei-Upload (für Bilder, Dokumente etc.).
+
     Felder können auf Wunsch als „Pflichtfelder“ markiert werden.
  5. Am Ende das *Sichern* nicht vergessen, um das Formular zu erstellen.
  6. Über den Block "Collecting" können Sie nun Ihr Collecting-Formular in eine beliebige Seite Ihrer Website einbinden
- 7. Eingereichte Inhalte verwalten: Die Einsendungen werden automatisch der zugeordneten Sammlung hinzugefügt. Im Admin-Dashboard können Sie unter *Items* die eingereichten Inhalte einsehen, prüfen und bearbeiten.
+ 7. Eingereichte Inhalte verwalten: 
+
+        Die Einsendungen werden automatisch der zugeordneten Sammlung hinzugefügt. Im Admin-Dashboard können Sie unter *Items* die eingereichten Inhalte einsehen, prüfen und bearbeiten.
 
 <br>
 
@@ -397,14 +404,18 @@ Hier sind ein paar hilfreiche Links für Module und Erweiterungen:
 --------
 
 - Omeka S Module auf der offiziellen Seite
-https://omeka.org/s/modules/
+
+    https://omeka.org/s/modules/
 
 - Omeka S Modules auf GitHub
-https://github.com/search?q=omeka+s+modules&type=repositories
+
+    https://github.com/search?q=omeka+s+modules&type=repositories
 
 - Page Blocks Modul (Seiteneditor-Erweiterung)
-Dies ist ein Modul für zusätzliche Seitengestaltungselemente wie Akkordeons oder Spaltenlayouts.
-https://omeka.org/s/modules/PageBlocks/
+
+    Dies ist ein Modul für zusätzliche Seitengestaltungselemente wie Akkordeons oder Spaltenlayouts.
+
+    https://omeka.org/s/modules/PageBlocks/
 
 ### Veröffentlichung
 
@@ -414,20 +425,24 @@ https://omeka.org/s/modules/PageBlocks/
 
 > 1. Klicken Sie auf *Vorschau*, um Ihre Website zu überprüfen.
 > 2. Stellen Sie sicher, dass alle Seiten, Links und Inhalte wie gewünscht funktionieren.
-> 3. Website online stellen: Wechseln Sie im Admin-Dashboard zum Tab Einstellungen der Website. Aktivieren Sie die Option *Öffentlich zugänglich machen*.
+> 3. Website online stellen: Wechseln Sie im Admin-Dashboard zum Tab Einstellungen der Website. Aktivieren Sie die Option *Öffentlich zugänglich machen* (Augen-Symbol).
 
 ## Hilfreiche Links
 
 Offizielle Dokumentation und Tutorials:
 
 - Tutorial auf dem YouTube-Kanal der UTAS Library
-https://youtu.be/Y41VRHM9n1k?feature=shared
+
+    https://youtu.be/Y41VRHM9n1k?feature=shared
 
 - Offizielle Omeka S-Dokumentation (Umfassende Anleitungen für Installation, Konfiguration, Module und Themes)
-https://omeka.org/s/docs/user-manual/
+
+    https://omeka.org/s/docs/user-manual/
 
 - Omeka S-Forum (Tauschen Sie sich mit der Community aus, stellen Sie Fragen oder finden Sie Lösungen für häufige Probleme)
-https://forum.omeka.org/
+
+    https://forum.omeka.org/
 
 - Omeka S GitHub Repository (Zugriff auf den Quellcode und die neuesten Updates für Omeka S und seine Module)
-https://github.com/omeka/omeka-s
+
+    https://github.com/omeka/omeka-s
